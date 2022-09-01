@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Silkscreen&display=swap");
+.app {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Silkscreen";
+}
+
+.counter {
+  text-align: center;
+  font-size: 1.5em;
+  margin-top: 10%;
+}
+
+.countText {
+  text-shadow: 3px 3px 3px rgba(150, 150, 150, 1);
+}
+
+.btnMinus {
+  background: #b993d6;
+  border: none;
+  border-radius: 15px;
+  border: 2px dashed rgba(255, 255, 255, 0.5);
+  padding: 10px 20px;
+  color: #fff;
+  font: 1em "Silkscreen";
+  margin-right: 20px;
+  transition: 0.2s all ease;
+  font-weight: 600;
+}
+
+.btnPlus {
+  background: #b993d6;
+  border: none;
+  border-radius: 15px;
+  border: 2px dashed rgba(255, 255, 255, 0.5);
+  padding: 10px 20px;
+  color: #fff;
+  font: 1em "Silkscreen";
+  transition: 0.2s all ease;
+  font-weight: 600;
+}
+
+button:hover {
+  transition: 0.2s all ease;
+  transform: scale(0.9);
+  cursor: pointer;
+}
